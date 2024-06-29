@@ -14,7 +14,7 @@ import { ROUTE_PATHS } from "../utils/constants";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route
           path={ROUTE_PATHS.ROOT}

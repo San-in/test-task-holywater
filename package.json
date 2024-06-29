@@ -1,5 +1,6 @@
 {
   "name": "test-task-holywater",
+  "homepage": "https://San-in.github.io/test-task-holywater",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
   "devDependencies": {
     "@types/nanoid": "^3.0.0",
     "@types/react-csv": "^1.1.10",
+    "gh-pages": "^6.1.1",
     "prettier": "3.3.2",
     "react-csv": "^2.2.2",
     "sass": "^1.77.6"
