@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/test-task-holywater/static/css/main.943560b8.css",
+    "main.css": "/test-task-holywater/static/css/main.e8afd7ca.css",
     "main.js": "/test-task-holywater/static/js/main.b94d9623.js",
     "index.html": "/test-task-holywater/index.html",
-    "main.943560b8.css.map": "/test-task-holywater/static/css/main.943560b8.css.map",
+    "main.e8afd7ca.css.map": "/test-task-holywater/static/css/main.e8afd7ca.css.map",
     "main.b94d9623.js.map": "/test-task-holywater/static/js/main.b94d9623.js.map"
   },
   "entrypoints": [
-    "static/css/main.943560b8.css",
+    "static/css/main.e8afd7ca.css",
     "static/js/main.b94d9623.js"
   ]
 }
