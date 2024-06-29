@@ -1,0 +1,10 @@
+.header {
+  position: relative;
+  margin-top: 24px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(calc(-50%));
+}

@@ -1,0 +1,7 @@
+@import "../../styles/vars";
+
+.search-container {
+  flex-direction: column;
+  gap: 40px;
+  font-weight: $font-weight-bold
+}

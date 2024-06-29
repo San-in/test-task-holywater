@@ -1,0 +1,19 @@
+@import '../../../styles/vars';
+@import '../../../styles/colors';
+
+
+.option-list-second {
+  flex-direction: row;
+}
+
+.option-second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.gender-icon {
+  font-size: 50px;
+}

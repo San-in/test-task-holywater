@@ -1,0 +1,182 @@
+@import "colors";
+@import "vars";
+
+body {
+  font-weight: $font-weight-regular;
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+  color: $color-text-main;
+  background-color: $color-bg-primary;
+}
+
+.text_color {
+  &__accent {
+    color: $color-accent;
+  }
+
+  &__white {
+    color: $color-text-white;
+  }
+
+  &__main {
+    color: $color-text-main;
+  }
+
+
+  &__secondary {
+    color: $color-text-secondary;
+  }
+
+  &__error {
+    color: $color-text-error;
+  }
+}
+
+.bg_color {
+  &__primary {
+    background-color: $color-bg-primary;
+  }
+
+  &__secondary {
+    background-color: $color-bg-secondary;
+  }
+
+  &__secondary-light {
+    background-color: $color-bg-secondary-light;
+  }
+
+  &__accent {
+    background-color: $color-accent;
+  }
+
+  &__accent-dark {
+    background-color: $color-accent-dark;
+  }
+}
+
+.border {
+  &__accnet {
+    border: 1px solid $color-border-accent;
+  }
+
+  &__transparent {
+    border: 1px solid transparent;
+  }
+
+}
+
+.text_size {
+  &__xxsmall {
+    font-size: $font-size-xxsm;
+    line-height: $line-height-xxsm;
+  }
+
+  &__xsmall {
+    font-size: $font-size-xsm;
+    line-height: $line-height-xsm;
+  }
+
+  &__small {
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+  }
+
+  &__medium {
+    font-size: $font-size-md;
+    line-height: $line-height-md;
+  }
+
+  &__large {
+    font-size: $font-size-lg;
+    line-height: $line-height-lg;
+  }
+
+  &__xlarge {
+    font-size: $font-size-xlg;
+    line-height: $line-height-xlg;
+  }
+
+  &__xxlarge {
+    font-size: $font-size-xxlg;
+    line-height: $line-height-xxlg;
+  }
+
+  &__xxxlarge {
+    font-size: $font-size-xxxlg;
+    line-height: $line-height-xxxlg;
+  }
+}
+
+.hidden {
+  display: none
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px 20px;
+  max-width: 100%;
+
+  @media only screen and (min-width: $breakpoint-tablet-start) and (max-width: $breakpoint-tablet-end) {
+    max-width: $breakpoint-tablet-end;
+  }
+  @media only screen and (min-width: $breakpoint-desktop-start) {
+    padding: 0 32px;
+    max-width: $breakpoint-desktop-end;
+  }
+  @media only screen and (min-width: $breakpoint-desktop-end) {
+    padding: 0 60px;
+  }
+}
+
+.accent {
+  color: $color-accent;
+}
+
+.fullView {
+  height: 100vh;
+  width: 100vw;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 45px;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-weight: $font-weight-regular;
+}
+
+.option-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 12px;
+
+}
+
+.option {
+  background-color: $color-bg-secondary;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 18px 20px;
+
+
+  &:focus, &:hover, &:active {
+    background-color: $color-accent-dark;
+    border: 2px solid $color-border-accent
+  }
+
+}

@@ -1,0 +1,93 @@
+{
+  "Quiz1": {
+    "title": "What is your preferred language?",
+    "subtitle": "Choose language",
+    "option1": "English",
+    "option2": "French",
+    "option3": "German",
+    "option4": "Spanish"
+  },
+  "Quiz2": {
+    "title": "What gender do you identify with?",
+    "subtitle": "Please share how do you identify yourself",
+    "option1": "Female",
+    "option2": "Male",
+    "option3": "Other"
+  },
+  "Quiz3": {
+    "title": "What is your age?",
+    "option1": "18-29 years",
+    "option2": "30-39 years",
+    "option3": "40-49 years",
+    "option4": "50+"
+  },
+  "Quiz4": {
+    "title": "What do you <span className='accent'>hate</span> the most in a book?",
+    "option1": "Lack of logic",
+    "option2": "A slow speed",
+    "option3": "Lack of humor",
+    "option4": "Way too generic ending"
+  },
+  "Quiz5": {
+    "title": "What are your favorite topics?",
+    "subtitle": "Choose up to 3 topics you like",
+    "young": {
+      "option1": "Adventure",
+      "option2": "Fantasy",
+      "option3": "Sci-Fi",
+      "option4": "Magic",
+      "option5": "Friendship",
+      "option6": "Humor",
+      "option7": "Thriller"
+    },
+    "middle": {
+      "option1": "Werewolf",
+      "option2": "Romance",
+      "option3": "Action",
+      "option4": "Young Adult",
+      "option5": "Royal Obsession",
+      "option6": "Bad Boy",
+      "option7": "Billionaire"
+    },
+    "mature": {
+      "option1": "Mystery",
+      "option2": "Historical",
+      "option3": "Drama",
+      "option4": "Crime",
+      "option5": "Politics",
+      "option6": "Philosophy",
+      "option7": "History"
+    },
+    "senior": {
+      "option1": "Biography",
+      "option2": "Self-Help",
+      "option3": "Health",
+      "option4": "Travel",
+      "option5": "Cooking",
+      "option6": "Art",
+      "option7": "Music"
+    }
+  },
+  "Searching": {
+    "info": "Finding collections for you..."
+  },
+  "Email": {
+    "title": "Email",
+    "subtitle": "Enter your email to get full access",
+    "placeholder": "Your email",
+    "info": "By continuing I agree with <a href='#' className='accent'>Privacy policy</a> and <a href='#' className='accent' >Terms of use</a>."
+  },
+  "Finish": {
+    "title": "Thank you",
+    "subtitle": "for supporting us and passing quiz"
+  },
+  "NotFound": {
+    "info": "Hoppla... Diese Seite wurde nicht gefunden."
+  },
+  "Button": {
+    "next": "Next",
+    "download": "Download my answers",
+    "restartQuiz": "Retake quiz",
+    "back": "Back"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "Quiz1": {
+    "title": "¿Cuál es su idioma preferido?",
+    "subtitle": "Elija idioma",
+    "option1": "Inglés",
+    "option2": "Francés",
+    "option3": "Alemán",
+    "option4": "Español"
+  },
+  "Quiz2": {
+    "title": "¿Con qué género te identificas?",
+    "subtitle": "Por favor, comparte cómo te identificas",
+    "option1": "Mujer",
+    "option2": "Hombre",
+    "option3": "Otro"
+  },
+  "Quiz3": {
+    "title": "¿Cuál es tu edad?",
+    "option1": "18-29 años",
+    "option2": "30-39 años",
+    "option3": "40-49 años",
+    "option4": "50+"
+  },
+  "Quiz4": {
+    "title": "¿Qué es lo que más <span className='accent'>odias</span> en un libro?",
+    "option1": "Falta de lógica",
+    "option2": "Velocidad lenta",
+    "option3": "Falta de humor",
+    "option4": "Final demasiado genérico"
+  },
+  "Quiz5": {
+    "title": "¿Cuáles son tus temas favoritos?",
+    "subtitle": "Elige hasta 3 temas que te gusten",
+    "young": {
+      "option1": "Aventura",
+      "option2": "Fantasía",
+      "option3": "Ciencia ficción",
+      "option4": "Magia",
+      "option5": "Amistad",
+      "option6": "Humor",
+      "option7": "Thriller"
+    },
+    "middle": {
+      "option1": "Hombre lobo",
+      "option2": "Romance",
+      "option3": "Acción",
+      "option4": "Joven adulto",
+      "option5": "Obsesión real",
+      "option6": "Chico malo",
+      "option7": "Billonario"
+    },
+    "mature": {
+      "option1": "Misterio",
+      "option2": "Histórico",
+      "option3": "Drama",
+      "option4": "Crimen",
+      "option5": "Política",
+      "option6": "Filosofía",
+      "option7": "Historia"
+    },
+    "senior": {
+      "option1": "Biografía",
+      "option2": "Autoayuda",
+      "option3": "Salud",
+      "option4": "Viajes",
+      "option5": "Cocina",
+      "option6": "Arte",
+      "option7": "Música"
+    }
+  },
+  "Searching": {
+    "info": "Buscando colecciones para ti..."
+  },
+  "Email": {
+    "title": "Correo electrónico",
+    "subtitle": "Ingrese su correo electrónico para obtener acceso completo",
+    "placeholder": "Su correo electrónico",
+    "info": "Al continuar, acepto la <a href='#' class='accent'>política de privacidad</a> y los <a href='#' class='accent'>términos de uso</a>."
+  },
+  "Finish": {
+    "title": "Gracias",
+    "subtitle": "por su apoyo y pasar el cuestionario"
+  },
+  "NotFound": {
+    "info": "¡Ups! Esta página no se encontró."
+  },
+  "Button": {
+    "next": "Siguiente",
+    "download": "Descargar mis respuestas",
+    "restartQuiz": "Reiniciar quiz",
+    "back": "Volver"
+  }
+}

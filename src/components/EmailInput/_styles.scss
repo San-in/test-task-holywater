@@ -1,0 +1,33 @@
+@import "../../styles/colors";
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.email-input {
+  padding: 26px 20px;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  background-color: $color-bg-secondary;
+  transition: border-color 0.3s;
+  &:focus, &:hover, &:active {
+    background-color: $color-accent-dark;
+    border: 2px solid $color-border-accent
+  }
+
+  &::placeholder {
+    color: $color-text-secondary
+  }
+
+  &.email-input-error {
+    border-color: $color-border-error;
+  }
+}
+
+.email-input-error-message {
+  color: $color-text-error;
+  margin-top: 4px;
+  margin-left: 12px;
+}

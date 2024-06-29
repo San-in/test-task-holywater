@@ -1,0 +1,93 @@
+{
+  "Quiz1": {
+    "title": "Was ist Ihre bevorzugte Sprache?",
+    "subtitle": "Sprache auswählen",
+    "option1": "Englisch",
+    "option2": "Französisch",
+    "option3": "Deutsch",
+    "option4": "Spanisch"
+  },
+  "Quiz2": {
+    "title": "Mit welchem Geschlecht identifizieren Sie sich?",
+    "subtitle": "Bitte teilen Sie mit, wie Sie sich identifizieren",
+    "option1": "Weiblich",
+    "option2": "Männlich",
+    "option3": "Andere"
+  },
+  "Quiz3": {
+    "title": "Wie alt sind Sie?",
+    "option1": "18-29 Jahre",
+    "option2": "30-39 Jahre",
+    "option3": "40-49 Jahre",
+    "option4": "50+"
+  },
+  "Quiz4": {
+    "title": "Was <span className='accent'>stört</span> Sie am meisten an einem Buch?",
+    "option1": "Mangel an Logik",
+    "option2": "Langsame Geschwindigkeit",
+    "option3": "Mangel an Humor",
+    "option4": "Zu generisches Ende"
+  },
+  "Quiz5": {
+    "title": "Welche Themen mögen Sie am liebsten?",
+    "subtitle": "Wählen Sie bis zu 3 Themen aus, die Sie mögen",
+    "young": {
+      "option1": "Abenteuer",
+      "option2": "Fantasie",
+      "option3": "Sci-Fi",
+      "option4": "Magie",
+      "option5": "Freundschaft",
+      "option6": "Humor",
+      "option7": "Thriller"
+    },
+    "middle": {
+      "option1": "Werwolf",
+      "option2": "Romantik",
+      "option3": "Action",
+      "option4": "Junge Erwachsene",
+      "option5": "Königliche Besessenheit",
+      "option6": "Bad Boy",
+      "option7": "Milliardär"
+    },
+    "mature": {
+      "option1": "Mysterium",
+      "option2": "Historisch",
+      "option3": "Drama",
+      "option4": "Kriminalität",
+      "option5": "Politik",
+      "option6": "Philosophie",
+      "option7": "Geschichte"
+    },
+    "senior": {
+      "option1": "Biografie",
+      "option2": "Selbsthilfe",
+      "option3": "Gesundheit",
+      "option4": "Reisen",
+      "option5": "Kochen",
+      "option6": "Kunst",
+      "option7": "Musik"
+    }
+  },
+  "Searching": {
+    "info": "Sammlungen werden für Sie gesucht..."
+  },
+  "Email": {
+    "title": "E-Mail",
+    "subtitle": "Geben Sie Ihre E-Mail-Adresse ein, um vollen Zugang zu erhalten",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "info": "Mit der Fortsetzung stimme ich den <a href='#' class='accent'>Datenschutzbestimmungen</a> und den <a href='#' class='accent'>Nutzungsbedingungen</a> zu."
+  },
+  "Finish": {
+    "title": "Danke",
+    "subtitle": "für Ihre Unterstützung und das Bestehen des Quiz"
+  },
+  "NotFound": {
+    "info": "Oops... This page was not found."
+  },
+  "Button": {
+    "next": "Weiter",
+    "download": "Meine Antworten herunterladen",
+    "restartQuiz": "Quiz erneut machen",
+    "back": "Zurück"
+  }
+}

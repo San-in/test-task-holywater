@@ -1,0 +1,93 @@
+{
+  "Quiz1": {
+    "title": "Quelle est votre langue préférée ?",
+    "subtitle": "Choisissez votre langue",
+    "option1": "Anglais",
+    "option2": "Français",
+    "option3": "Allemand",
+    "option4": "Espagnol"
+  },
+  "Quiz2": {
+    "title": "Avec quel genre vous identifiez-vous ?",
+    "subtitle": "Veuillez indiquer votre identité",
+    "option1": "Femme",
+    "option2": "Homme",
+    "option3": "Autre"
+  },
+  "Quiz3": {
+    "title": "Quel est votre âge ?",
+    "option1": "18-29 ans",
+    "option2": "30-39 ans",
+    "option3": "40-49 ans",
+    "option4": "50+"
+  },
+  "Quiz4": {
+    "title": "Qu'est-ce qui vous <span className='accent'>dérange</span> le plus dans un livre ?",
+    "option1": "Manque de logique",
+    "option2": "Lenteur",
+    "option3": "Manque d'humour",
+    "option4": "Fin trop générique"
+  },
+  "Quiz5": {
+    "title": "Quels sont vos sujets préférés ?",
+    "subtitle": "Choisissez jusqu'à 3 sujets que vous aimez",
+    "young": {
+      "option1": "Aventure",
+      "option2": "Fantaisie",
+      "option3": "Science-fiction",
+      "option4": "Magie",
+      "option5": "Amitié",
+      "option6": "Humour",
+      "option7": "Thriller"
+    },
+    "middle": {
+      "option1": "Loup-garou",
+      "option2": "Romance",
+      "option3": "Action",
+      "option4": "Jeune adulte",
+      "option5": "Obsession royale",
+      "option6": "Mauvais garçon",
+      "option7": "Milliardaire"
+    },
+    "mature": {
+      "option1": "Mystère",
+      "option2": "Historique",
+      "option3": "Drame",
+      "option4": "Crime",
+      "option5": "Politique",
+      "option6": "Philosophie",
+      "option7": "Histoire"
+    },
+    "senior": {
+      "option1": "Biographie",
+      "option2": "Développement personnel",
+      "option3": "Santé",
+      "option4": "Voyage",
+      "option5": "Cuisine",
+      "option6": "Art",
+      "option7": "Musique"
+    }
+  },
+  "Searching": {
+    "info": "Recherche de collections pour vous..."
+  },
+  "Email": {
+    "title": "E-mail",
+    "subtitle": "Entrez votre e-mail pour obtenir un accès complet",
+    "placeholder": "Votre e-mail",
+    "info": "En continuant, j'accepte la <a href='#' class='accent'>politique de confidentialité</a> et les <a href='#' class='accent'>conditions d'utilisation</a>."
+  },
+  "Finish": {
+    "title": "Merci",
+    "subtitle": "pour votre soutien et la réussite du quiz"
+  },
+  "NotFound": {
+    "info": "Oops... Cette page n'a pas été trouvée."
+  },
+  "Button": {
+    "next": "Suivant",
+    "download": "Télécharger mes réponses",
+    "restartQuiz": "Recommencer le quiz",
+    "back": "Retour"
+  }
+}

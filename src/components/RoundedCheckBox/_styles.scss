@@ -1,0 +1,36 @@
+@import "../../styles/colors";
+
+.checkbox-input-rounded {
+  display: none;
+}
+
+.custom-checkbox-rounded {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 8px 10px;
+  aspect-ratio: 1;
+  width: 98px;
+  gap: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: $color-bg-secondary;
+  border: 2px solid transparent;
+
+  & > p {
+    text-align: center;
+  }
+
+  &:focus, &:hover, &:active {
+    border: 2px solid $color-border-accent;
+  }
+}
+
+.checkbox-input-rounded:checked + .custom-checkbox-rounded {
+
+  border: 2px solid $color-border-accent;
+
+}
+
+

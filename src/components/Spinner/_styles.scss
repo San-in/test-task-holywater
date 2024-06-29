@@ -1,0 +1,27 @@
+@import "src/styles/colors";
+@import "src/styles/vars";
+
+.spinner {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 50%;
+  @media only screen and (min-width: $breakpoint-tablet-start) {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background-color: $color-bg-primary;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xxxlg;
+}
+

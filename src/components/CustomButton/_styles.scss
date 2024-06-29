@@ -1,0 +1,49 @@
+@import "../../styles/vars";
+@import "../../styles/colors";
+
+.button {
+  padding: 12px;
+  border-radius: 80px;
+  width: 100%;
+  min-width: 250px;
+  gap: 10px;
+  color: $color-text-main;
+  font-weight: $font-weight-bold;;
+  @media only screen and (min-width: $breakpoint-mob) {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  &__base {
+    background-color: $color-accent;
+    border: 4px solid transparent;
+
+    &:focus,
+    &:hover {
+      border: 4px solid $color-accent-dark;
+    }
+
+    &:disabled {
+      background-color: $color-accent-disabled;
+    }
+  }
+
+  &__link {
+    &:focus,
+    &:hover {
+      font-weight: $font-weight-bolder;;
+    }
+
+    &:active {
+      color: $color-accent;
+
+      & > svg {
+        background-color: $color-accent-dark;
+      }
+    }
+  }
+
+  &:disabled {
+    color: $color-text-disabled;
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../../styles/vars';
+@import '../../../styles/colors';
+
+.title-fifth {
+  font-weight: $font-weight-semi-bolder
+}
+
+.bubbles {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 27px;
+  margin-bottom: 27px;
+
+  & .pair-of-bubbles:nth-child(even) {
+    margin-top: 20px;
+  }
+}
+
+.pair-of-bubbles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
