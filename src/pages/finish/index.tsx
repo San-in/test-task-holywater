@@ -10,6 +10,14 @@ import CompletedIcon from "../../assets/icons/completed";
 const Finish: React.FC = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
+  const onRestart = () => {
+    Object.keys(localStorage).forEach((key) => {
+      if (key.startsWith("question")) {
+        localStorage.removeItem(key);
+      }
+    });
+    navigate(ROUTE_PATHS.QUIZ_1);
+  };
   return (
     <div className={"container"}>
       <h1 className={"text_size__xxlarge page-title title-finish"}>
@@ -25,7 +33,7 @@ const Finish: React.FC = () => {
       <CustomButton
         label={t("Button.restartQuiz")}
         variant={"base"}
-        onClick={() => navigate(ROUTE_PATHS.QUIZ_1)}
+        onClick={onRestart}
       />
     </div>
   );
