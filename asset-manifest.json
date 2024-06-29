@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-holywater/static/css/main.a023cb3e.css",
+    "main.js": "/test-task-holywater/static/js/main.db9f4d4f.js",
+    "index.html": "/test-task-holywater/index.html",
+    "main.a023cb3e.css.map": "/test-task-holywater/static/css/main.a023cb3e.css.map",
+    "main.db9f4d4f.js.map": "/test-task-holywater/static/js/main.db9f4d4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a023cb3e.css",
+    "static/js/main.db9f4d4f.js"
+  ]
+}
