@@ -22,15 +22,13 @@
     text-align: center;
   }
 
-  &:hover, &:active {
+  &:hover {
     border: 2px solid $color-border-accent;
   }
 }
 
 .checkbox-input-rounded:checked + .custom-checkbox-rounded {
-
   border: 2px solid $color-border-accent;
-
 }
 
 
