@@ -22,7 +22,7 @@
     text-align: center;
   }
 
-  &:focus, &:hover, &:active {
+  &:hover, &:active {
     border: 2px solid $color-border-accent;
   }
 }
