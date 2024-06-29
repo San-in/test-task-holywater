@@ -21,10 +21,6 @@
   & > p {
     text-align: center;
   }
-
-  &:hover {
-    border: 2px solid $color-border-accent;
-  }
 }
 
 .checkbox-input-rounded:checked + .custom-checkbox-rounded {
